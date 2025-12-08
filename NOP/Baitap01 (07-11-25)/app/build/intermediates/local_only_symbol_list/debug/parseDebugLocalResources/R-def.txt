@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable anh_sv
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnArray
+id btnReverse
+id edtNumbers
+id edtText
+id imgSV
+id txtInfo
+id txtResult
+id txtResultArray
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Baitap01
+style Theme.Baitap01
+xml backup_rules
+xml data_extraction_rules

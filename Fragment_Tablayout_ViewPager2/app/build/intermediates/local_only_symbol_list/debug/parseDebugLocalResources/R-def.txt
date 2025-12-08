@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_500
+color white
+drawable ic_baseline_call_24
+drawable ic_baseline_camera_alt_24
+drawable ic_baseline_chat_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id appBar
+id fabAction
+id menuBroadcast
+id menuMessage
+id menuNewGroup
+id menuSearch
+id menuSetting
+id menuWeb
+id menu_More
+id tabLayout
+id toolBar
+id viewPager2
+layout activity_main
+layout fragment_cancel
+layout fragment_danhgia
+layout fragment_delivery
+layout fragment_neworder
+layout fragment_pickup
+menu menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Fragment_Tablayout_ViewPager2
+style Theme.Fragment_Tablayout_ViewPager2
+xml backup_rules
+xml data_extraction_rules

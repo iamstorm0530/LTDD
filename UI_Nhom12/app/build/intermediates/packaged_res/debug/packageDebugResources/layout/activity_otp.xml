@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ui"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvOtpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 6-digit OTP"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.25"/>
+
+    <LinearLayout
+        android:id="@+id/otpContainer"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tvOtpTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <!-- 6 ô nhập OTP -->
+        <EditText android:layout_width="45dp" android:layout_height="55dp" android:layout_margin="5dp"
+            android:background="@android:color/white" android:gravity="center" android:inputType="number" android:maxLength="1"/>
+        <EditText android:layout_width="45dp" android:layout_height="55dp" android:layout_margin="5dp"
+            android:background="@android:color/white" android:gravity="center" android:inputType="number" android:maxLength="1"/>
+        <EditText android:layout_width="45dp" android:layout_height="55dp" android:layout_margin="5dp"
+            android:background="@android:color/white" android:gravity="center" android:inputType="number" android:maxLength="1"/>
+        <EditText android:layout_width="45dp" android:layout_height="55dp" android:layout_margin="5dp"
+            android:background="@android:color/white" android:gravity="center" android:inputType="number" android:maxLength="1"/>
+        <EditText android:layout_width="45dp" android:layout_height="55dp" android:layout_margin="5dp"
+            android:background="@android:color/white" android:gravity="center" android:inputType="number" android:maxLength="1"/>
+        <EditText android:layout_width="45dp" android:layout_height="55dp" android:layout_margin="5dp"
+            android:background="@android:color/white" android:gravity="center" android:inputType="number" android:maxLength="1"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSendOtp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:backgroundTint="@android:color/white"
+        android:textColor="#5F7FFF"
+        app:layout_constraintTop_toBottomOf="@id/otpContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="25dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

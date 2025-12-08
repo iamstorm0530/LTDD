@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.fragment_tablayout_viewpager2.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.example.fragment_tablayout_viewpager2.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.fragment_tablayout_viewpager2.app-mergeDebugResources-35:/layout/fragment_cancel.xml",
+        "source": "com.example.fragment_tablayout_viewpager2.app-main-38:/layout/fragment_cancel.xml"
+    },
+    {
+        "merged": "com.example.fragment_tablayout_viewpager2.app-mergeDebugResources-35:/layout/fragment_neworder.xml",
+        "source": "com.example.fragment_tablayout_viewpager2.app-main-38:/layout/fragment_neworder.xml"
+    },
+    {
+        "merged": "com.example.fragment_tablayout_viewpager2.app-mergeDebugResources-35:/layout/fragment_danhgia.xml",
+        "source": "com.example.fragment_tablayout_viewpager2.app-main-38:/layout/fragment_danhgia.xml"
+    },
+    {
+        "merged": "com.example.fragment_tablayout_viewpager2.app-mergeDebugResources-35:/layout/fragment_delivery.xml",
+        "source": "com.example.fragment_tablayout_viewpager2.app-main-38:/layout/fragment_delivery.xml"
+    },
+    {
+        "merged": "com.example.fragment_tablayout_viewpager2.app-mergeDebugResources-35:/layout/fragment_pickup.xml",
+        "source": "com.example.fragment_tablayout_viewpager2.app-main-38:/layout/fragment_pickup.xml"
+    }
+]

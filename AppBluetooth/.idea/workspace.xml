@@ -22,8 +22,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20d1283b-ee3f-42f0-9a9f-04b9bfb966db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../MidTest/app/src/main/java/com/example/midtest/SignupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MidTest/app/src/main/java/com/example/midtest/SignupActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MidTest/app/src/main/res/layout/activity_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MidTest/app/src/main/res/layout/activity_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +67,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "iamstorm0530"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;iamstorm0530&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/iamstorm0530/KiemTraLTDD.git",
+    "url": "https://github.com/iamstorm0530/LTDD.git",
     "accountId": "341c112b-3116-434e-ac4b-0353ecb82220"
   }
 }]]></component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\LEGION\.gradle\wrapper\dists\gradle-8.13-bin\5xuhj0ry160q40clulazy9h7d\gradle-8.13" javaHome="C:\Program Files\Android\Android Studio\jbr" gradleVersion="8.13" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="36VIKThdtm4XwT7juAqdRgvMubN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -98,7 +98,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "baotran",
+    "git-widget-placeholder": "Baitap07",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Storm/LTDD/AppBluetooth/app/src/main/res/drawable"
   }

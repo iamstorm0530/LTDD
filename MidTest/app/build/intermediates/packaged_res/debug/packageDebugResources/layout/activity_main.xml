@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF6FB">
+
+    <!-- THANH MÀU TÍM TRÊN CÙNG -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#7B3FA9" />
+
+    <!-- NỘI DUNG CHÍNH -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- USER + LOGOUT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgAvatar"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="#EDEDED"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_launcher_foreground" />
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imgAvatar"
+                    android:layout_marginStart="12dp"
+                    android:text="User Name"
+                    android:textColor="#FF5A00"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvSubTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvUserName"
+                    android:layout_alignStart="@id/tvUserName"
+                    android:text="Eat and Order"
+                    android:textColor="#FF5A00"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="120dp"
+                    android:layout_height="46dp"
+                    android:layout_alignParentEnd="true"
+                    android:backgroundTint="#7B3FA9"
+                    android:text="Log out"
+                    android:textColor="@android:color/white"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="6dp" />
+
+            </RelativeLayout>
+
+            <!-- SEARCH -->
+            <EditText
+                android:id="@+id/edtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:hint="Find Your Food"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                android:drawablePadding="8dp"
+                android:paddingStart="48dp"
+                android:textSize="14sp" />
+
+            <!-- BANNER -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBanner"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="24dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="16dp"
+                    android:background="#FFD3AE">
+
+                    <ImageView
+                        android:id="@+id/imgBanner"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="8dp"
+                        android:layout_toStartOf="@+id/layoutBannerText"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/banner"/>
+
+                    <LinearLayout
+                        android:id="@+id/layoutBannerText"
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Miễn Ship"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20/3 - 27/3"
+                            android:textSize="16sp"
+                            android:layout_marginTop="4dp" />
+
+                        <Button
+                            android:id="@+id/btnOrder"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:text="Order"
+                            android:textColor="@android:color/white"
+                            android:textAllCaps="false"
+                            android:backgroundTint="#FF5A00"
+                            android:layout_marginTop="10dp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CATEGORY -->
+            <TextView
+                android:id="@+id/tvCategories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categories"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCategories"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:overScrollMode="never"
+                android:nestedScrollingEnabled="false"
+                android:layout_marginTop="12dp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- BOTTOM NAVIGATION -->
+    <include
+        layout="@layout/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

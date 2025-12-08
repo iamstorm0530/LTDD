@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable bg1
+drawable bg2
+drawable bg3
+drawable bg4
+drawable bg5
+drawable dart
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable kotlin
+drawable on
+id checkBox2
+id constraintLayout1
+id imageButton1
+id imageView1
+id progressBar2
+id radioButton
+id radioButton2
+id radioGroup1
+id seekBar
+id switch1
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string toggle_button_desc
+string wifi
+style Base.Theme.Demo
+style Theme.Demo
+xml backup_rules
+xml data_extraction_rules

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="orange">#F28705</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">MidTest</string>
+    <style name="Base.Theme.MidTest" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MidTest" parent="Base.Theme.MidTest"/>
+    <style name="otpBox">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:background">@drawable/otp_edittext_bg_orange</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#0D47A1</item>
+    </style>
+</resources>

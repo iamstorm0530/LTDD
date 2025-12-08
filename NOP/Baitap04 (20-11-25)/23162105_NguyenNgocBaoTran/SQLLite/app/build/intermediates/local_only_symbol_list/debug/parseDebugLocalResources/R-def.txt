@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable add
+drawable delete
+drawable edit
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonAdd
+id buttonHuy
+id buttonUpdate
+id editTextName
+id editTextUpdateName
+id imageViewDelete
+id imageViewEdit
+id listView1
+id main
+id menuAdd
+id scrollView
+id textTitle
+id textView
+id textViewNameNote
+id toolbar
+layout activity_main
+layout dialog_add_notes
+layout dialog_update_notes
+layout row_notes
+menu menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.SQLLite
+style Theme.SQLLite
+xml backup_rules
+xml data_extraction_rules

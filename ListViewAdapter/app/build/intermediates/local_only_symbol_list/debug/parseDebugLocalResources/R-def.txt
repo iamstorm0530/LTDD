@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable c
+drawable dart
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable java1
+drawable kotlin
+drawable php
+id btnCapNhat
+id btnNhap
+id editText1
+id imagePic
+id listView1
+id textDesc
+id textName
+id titleList
+layout activity_main
+layout row_monhoc
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.ListViewAdapter
+style Theme.ListViewAdapter
+xml backup_rules
+xml data_extraction_rules

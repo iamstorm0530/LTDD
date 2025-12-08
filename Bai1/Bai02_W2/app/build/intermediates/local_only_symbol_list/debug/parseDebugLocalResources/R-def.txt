@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable bg1
+drawable bg2
+drawable bg3
+drawable bg4
+drawable bg5
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id constraintLayout1
+id switch1
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string background
+style Base.Theme.Bai02_W2
+style Theme.Bai02_W2
+xml backup_rules
+xml data_extraction_rules
